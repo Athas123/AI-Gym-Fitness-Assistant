@@ -3,6 +3,7 @@ from habit_tracker import run_habit_tracker
 from performance_analyzer import run_performance_analyzer
 from virtual_buddy import run_virtual_buddy
 from recommender import run_gym_recommender
+from iot_simulator import run_iot_simulator
 
 print("AI Gym & Fitness Assistant Started")
 
@@ -20,3 +21,6 @@ run_virtual_buddy()
 
 print("\n--- Gym Recommender & Planner ---")
 run_gym_recommender()
+
+print("\n--- Smart Gym Assistant (IoT Simulation) ---")
+run_iot_simulator()
